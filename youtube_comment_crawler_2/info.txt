@@ -1,3 +1,20 @@
-Code of Jinhyen Kim
+Code of Jinhyen Kim (20190822)
 
 Python code for crawling YouTube comments
+
+
+
+How to execute:
+
+1. Enter a valid Youtube Link, without including any link beyond the character '&'.
+e.g.: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+2. Enter the total number of comments you wish to retrieve.
+
+3. Enter the 'mod' number.
+e.g.: A 'mod' number of 10 will cause the crawler to only save 1 comment out of every 10 comments crawled.
+
+4. Enter the file name including the .csv extension.
+e.g.: "temp.csv"
+
+5. The final file will be generated at the same place as the 'main.py' file.
